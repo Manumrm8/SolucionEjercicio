@@ -18,3 +18,39 @@ Usa las funciones dim, head, tail, str para una primera visión de los conjuntos
 
 
 
+```{r}
+mammals<-MASS::mammals
+Animals2<-robustbase::Animals2
+```
+
+```{r}
+?mammals
+```
+
+```{r}
+?Animals2
+```
+
+```{r}
+dim(mammals)
+head(mammals)
+tail(mammals)
+str(mammals)
+```
+
+```{r}
+dim(Animals2)
+head(Animals2)
+tail(Animals2)
+str(Animals2)
+```
+
+
+
+
+
+
+
+
+
+
