@@ -63,6 +63,12 @@ setdiff(rownames(mammals),rownames(Animals2))
 Son 3 animales, el zorro ártico, la ardilla ártica de tierra, un mono y la rata gigante.
 
 
+```{r}
+Animals2['Artic fox',]
+mammals['Arctic ground squirrel',]
+mammals['Patas monkey',]
+mammals['Mole rat',]
+```
 
 
 
