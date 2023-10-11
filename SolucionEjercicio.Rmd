@@ -56,7 +56,11 @@ colnames(Animals2)
 common_animals<-intersect(rownames(mammals),rownames(Animals2))
 common_animals
 ```
+```{r}
+setdiff(rownames(mammals),rownames(Animals2))
+```
 
+Son 3 animales, el zorro ártico, la ardilla ártica de tierra, un mono y la rata gigante.
 
 
 
